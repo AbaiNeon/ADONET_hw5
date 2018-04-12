@@ -1,0 +1,25 @@
+﻿<Window
+    x:Class="ADOnet_hw5.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow"
+    Width="525"
+    Height="350">
+    <Grid>
+        <DataGrid
+            Name="myDataGrid"
+            Width="497"
+            Height="253"
+            Margin="10,57,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" 
+            AutoGenerateColumns="True"/>
+        <ComboBox
+            Name="myComboBox"
+            Width="120"
+            Margin="10,10,0,0"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top" SelectionChanged="myComboBox_SelectionChanged" />
+
+    </Grid>
+</Window>
